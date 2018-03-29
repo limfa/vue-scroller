@@ -1,3 +1,18 @@
+# todo
+
+原基础上不满足我，所以作了一些修改
+
+* update   : 样式分离
+* update   : 新增配合 swiper 例子
+* optimize : 去除 定时器、去除 id
+* update   : onRefresh onInfinite 可变可空
+* update   : 添加 禁用 disabled
+* update   : 添加 竖屏滚动滚定可再滚动
+
+文档todo
+
+
+
 # Vue Scroller ![version](https://img.shields.io/badge/version-%20v2.2.0%20-green.svg) ![vue](https://img.shields.io/badge/vue-%20v2.1%20-green.svg) 
 
 [Vue Scroller](https://github.com/wangdahoo/vue-scroller) is a foundational component of [Vonic](https://github.com/wangdahoo/vonic) UI.
