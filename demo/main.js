@@ -5,6 +5,8 @@ Vue.use(VueRouter)
 import VueScroller from 'vue-scroller'
 Vue.use(VueScroller)
 
+import 'vue-scroller/style.css'
+
 // Vue.config.silent = true
 
 import App from './App.vue'
@@ -21,6 +23,7 @@ import NoContent from './views/NoContent.vue'
 import LoadMoreAndNoData2 from './views/LoadMoreAndNoData2.vue'
 import Master from './views/MasterDetail/Master.vue'
 import Detail from './views/MasterDetail/Detail.vue'
+import Swiper from './views/Swiper.vue'
 
 const routes = [
   { path: '/', component: Index },
@@ -35,6 +38,7 @@ const routes = [
   { path: '/loadMoreAndNoData2', component: LoadMoreAndNoData2 },
   { path: '/master-detail', component: Master },
   { path: '/master-detail/:id', component: Detail },
+  { path: '/swiper', component: Swiper },
 ]
 
 const router = new VueRouter({

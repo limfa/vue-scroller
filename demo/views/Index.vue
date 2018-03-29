@@ -40,6 +40,11 @@
         陈妍希
         <img src="../assets/arrow-right.png" class="arrow-right">
       </router-link>
+
+      <router-link class="row" tag="label" to="/swiper">
+        swiper
+        <img src="../assets/arrow-right.png" class="arrow-right">
+      </router-link>
     </scroller>
 
     <!-- github corner -->
